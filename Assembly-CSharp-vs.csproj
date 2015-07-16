@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{DA2FC6DB-6AAF-DFC6-A34B-7CBD80A0778B}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\AIsetC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\ARPGcameraC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\AbnormalStatAttackC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\AddCashC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\AttackTriggerC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\BotSearch.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\BulletChildGetDamageC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\BulletShotC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\BulletStatusC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\CharacterMotorC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\CheckPointC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\DamageAreaC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\DamagePopupC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\DestroyObjectC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\DontDestroyOnloadC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\DropItemC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\GainEXPC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\GameOverC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\HealingSkillC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\HealthBarC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\InventoryC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\ItemC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\ItemDataC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\LockMouseC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\MinimapCameraC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\MinimapOnOffC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\MonsterSkillC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\PatrollingAiC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\PlayerAnimationC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\PlayerInputControllerC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\PlayerMecanimAnimationC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\QuestSystem\QuestClientC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\QuestSystem\QuestDataC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\QuestSystem\QuestProgressiveC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\QuestSystem\QuestStatC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\QuestSystem\QuestTriggerC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\RespawnMonsterC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\RotateObjectC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\SaveLoadC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\ShopC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\ShowEnemyHealthC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\SkillDataC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\SkillWindowC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\SpawnPlayerC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\StatusC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\StatusWindowC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\SwitchAimModeC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\TeleporterC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\Timer.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\TitleC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\UpDownObjectC.cs" />
+     <Compile Include="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\timebar.cs" />
+     <Compile Include="Assets\ActionRPGKit\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\ActionRPGKit\SwimmingAddOn\ScriptCSharp\UnderwaterC.cs" />
+     <Compile Include="Assets\ActionRPGKit\SwimmingAddOn\ScriptCSharp\UnderwaterControllerC.cs" />
+     <Compile Include="Assets\ActionRPGKit\SwimmingAddOn\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
+     <None Include="Assets\ActionRPGKit\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\ActionRPGKit\SwimmingAddOn\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

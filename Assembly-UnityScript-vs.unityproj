@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{52D9A0E4-89D4-00B3-551D-ED7C135C5625}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ActionRPGKit\Script\AIset.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\ARPGcamera.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\AbnormalStatAttack.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\AddCash.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\AttackTrigger.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\BulletChildGetDamage.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\BulletShotl.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\BulletStatus.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\CharacterSelection.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\CheckPoint.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\DamageArea.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\DamagePopup.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\DestroyObject.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\DontDestroyOnload.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\DropItem.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\Event\Gate.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\Event\PickupKey.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\Event\StageClear.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\FlyingEnemy.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\GainEXP.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\GameOver.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\HealingSkill.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\HealthBar.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\IgnorePlayerCollision.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\Inventory.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\Item.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\ItemData.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\LockMouse.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\MinimapCamera.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\MinimapOnOff.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\MonsterSkill.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\MoveForward.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\NpcPatrolling.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\PatrollingAi.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\PlayerAnimation.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\PlayerInputController.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\PlayerMecanimAnimation.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\QuestSystem\QuestClient.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\QuestSystem\QuestData.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\QuestSystem\QuestProgressive.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\QuestSystem\QuestStat.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\QuestSystem\QuestTrigger.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\RespawnMonster.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\RotateObject.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\SaveLoad.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\Shop.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\ShowEnemyHealth.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\ShowTip.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\SkillData.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\SkillWindow.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\SpawnPlayer.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\StageStart.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\Status.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\StatusWindow.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\SwtichCameraAimMode.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\Teleporter.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\Title.js" />
+     <Compile Include="Assets\ActionRPGKit\Script\UpDownObject.js" />
+     <Compile Include="Assets\ActionRPGKit\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
+     <Compile Include="Assets\ActionRPGKit\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
+     <Compile Include="Assets\ActionRPGKit\Standard Assets\Particles\Legacy Particles\TimedObjectDestructor.js" />
+     <Compile Include="Assets\ActionRPGKit\SwimmingAddOn\ScriptJS\Underwater.js" />
+     <Compile Include="Assets\ActionRPGKit\SwimmingAddOn\ScriptJS\UnderwaterController.js" />
+     <None Include="Assets\ActionRPGKit\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\ActionRPGKit\SwimmingAddOn\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\timebar.cs">
+    <Files>
+      <File FileName="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\timebar.cs" Line="28" Column="17" />
+      <File FileName="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\Timer.cs" Line="17" Column="36" />
+      <File FileName="Assets\ActionRPGKit\CSharpExample\ScriptCSharp\BotSearch.cs" Line="45" Column="55" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
