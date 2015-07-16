@@ -24,6 +24,7 @@ public class timebar : MonoBehaviour {
 	public GameObject player;
 	public GameObject map;
 	private float hptext = 100;
+	float lv;
 	
 	void  Awake (){
 		if(!map){
@@ -31,6 +32,7 @@ public class timebar : MonoBehaviour {
 			map = GameObject.FindWithTag("Map");
 		}
 		hptext = 100 * barMultiply;
+		lv = player.GetComponent<StatusC>().level;
 	}
 	
 	void  OnGUI (){
@@ -43,11 +45,15 @@ public class timebar : MonoBehaviour {
 		float mp = player.GetComponent<StatusC>().mana * 100 / maxMp *barMultiply;
 		float maxExp = player.GetComponent<StatusC>().maxExp;
 		float exp = player.GetComponent<StatusC>().exp * 100 / maxExp *barMultiply;
-		float lv = player.GetComponent<StatusC>().level;
 		
 		int currentHp = player.GetComponent<StatusC>().health;
 		int currentMp = player.GetComponent<StatusC>().mana;
 		string timer = map.GetComponent<Timer>().Tic;
+
+		if (map.GetComponent<Timer>().seconds == 29 || map.GetComponent<Timer>().seconds == 59) {
+			lv++;
+		}
+
 		
 		GUI.DrawTexture( new Rect(maxHpBarPosition.x ,maxHpBarPosition.y ,maxHpBarWidth,maxHpBarHeigh), maxHpBar);
 		

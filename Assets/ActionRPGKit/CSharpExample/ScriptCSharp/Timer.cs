@@ -34,7 +34,7 @@ public class Timer : MonoBehaviour {
 	void  OnGUI (){
 		if (menu) {
 			GUI.Box ( new Rect(Screen.width / 2 - 110,230,220,200), "Menu");
-			if (GUI.Button ( new Rect(Screen.width / 2 - 45,285,90,40), Tic)) {
+			if (GUI.Button ( new Rect(Screen.width / 2 - 45,285,90,40), "Survived: "+Tic)) {
 			}
 			
 			if (GUI.Button ( new Rect(Screen.width / 2 + 55,235,30,30), "X")) {
